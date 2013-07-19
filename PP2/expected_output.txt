@@ -1,0 +1,24 @@
+add 	 $s6, $s5, $s4 
+subu 	 $s3, $s2, $s1 
+addi 	 $t1, $t0, 100 
+and 	 $s7, $s6, $s5 
+andi 	 $a2, $a3, 5 
+sll 	 $t5, $t4, 2
+lw 	 $t0, 1200($t1) 
+sw 	 $t0, 1200($t1) 
+lui 	 $a0, 100 
+jr 	 $ra 
+beq 	 $t3, $t4, 400 
+sltu 	 $a3, $a2, $a1 
+sltiu 	 $s1, $a1, 100 
+j 	 4000 
+jal 	 4000 
+Error Line 16: Not a valid operator name
+Error Line 17: Not a valid MIPS instruction Code
+Error Line18: Not 32 chars.
+Error Line 19: Not a valid MIPS instruction Code
+Error Line20: Not 32 chars.
+Error Line 21: Not a valid MIPS instruction Code
+Error Line 22: Not a valid operator name
+Error Line23: Not 32 chars.
+Error Line24: Not 32 chars.

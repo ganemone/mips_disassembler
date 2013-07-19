@@ -1,0 +1,4 @@
+add $t0, $t1, $t2
+lw $t0, 0($s1)
+lw $t3, 5($s6)
+addi $v0, $zero, 5
